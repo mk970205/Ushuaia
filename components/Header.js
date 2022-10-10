@@ -11,6 +11,10 @@ const Header = () => {
       <Link href="/login">
         <a style={linkStyle}>로그인</a>
       </Link>
+
+      <Link href="/register">
+        <a style={linkStyle}>회원가입</a>
+      </Link>
     </div>
   );
 };
